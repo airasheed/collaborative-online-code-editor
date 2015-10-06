@@ -1,0 +1,29 @@
+{
+  "name": "collab-online-editor",
+  "version": "1.0.0",
+  "description": "A real time online collobartion code editor using Express.js, DerbyJS, MongoDB, and Redis.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/airasheed/collaborative-online-code-editor.git"
+  },
+  "keywords": [
+    "DerbyJS"
+  ],
+  "author": "Abdullah Rasheed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/airasheed/collaborative-online-code-editor/issues"
+  },
+  "homepage": "https://github.com/airasheed/collaborative-online-code-editor#readme",
+  "dependencies": {
+    "express": "~3.4.8",
+    "derby": "~0.5.12",
+    "livedb-mongo": "~0.3.0",
+    "racer-browserchannel": "~0.1.1",
+    "redis": "~0.10.0"
+  }
+}
